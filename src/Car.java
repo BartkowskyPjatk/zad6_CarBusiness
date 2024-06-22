@@ -1,5 +1,5 @@
 public class Car extends Vehicle{
-        double milesDriven, fuelConsumed;
+        private double milesDriven, fuelConsumed;
         public Car (String make, String model, int year, double milesDriven, double fuelConsumed) {
             super (make, model, year);
             this.milesDriven = milesDriven;

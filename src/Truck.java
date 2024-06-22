@@ -1,5 +1,5 @@
 public abstract class Truck extends Vehicle {
-    double milesDriven, fuelConsumed, cargoWeight;
+    private double milesDriven, fuelConsumed, cargoWeight;
     public Truck (String make, String model, int year, double milesDriven, double fuelConsumed, double cargoWeight) {
         super (make, model, year);
         this.milesDriven = milesDriven;

@@ -1,6 +1,6 @@
 public abstract class Vehicle {
-    public String make, model;
-    public int year;
+    private String make, model;
+    private int year;
     public Vehicle (String make, String model, int year) {
         this.make = make;
         this.model = model;
