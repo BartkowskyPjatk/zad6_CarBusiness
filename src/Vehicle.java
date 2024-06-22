@@ -6,7 +6,5 @@ public abstract class Vehicle {
         this.model = model;
         this.year = year;
     }
-    public double calculateFuelEfficiency(double milesDriven, double fuelConsumed){
-        return milesDriven/fuelConsumed;
-    }
+    public abstract double calculateFuelEfficiency(double milesDriven, double fuelConsumed);
 }
